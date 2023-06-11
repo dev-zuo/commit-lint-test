@@ -1,9 +1,10 @@
 # commit-lint-test
 
-husky + commitlint commit msg lint
+husky + commit lint（提交消息校验、StyleLint、ESLint 等）
 
 1. 安装 husky
-2. 使用 commitlint 拦截提交信息
+2. 使用 commitlint 拦截提交信息，分支 [commit-msg-lint](https://github.com/dev-zuo/commit-lint-test/tree/commit-msg-lint)
+3. 使用 stylelint 拦截不规范 style 样式，分支 [stylelint](https://github.com/dev-zuo/commit-lint-test/tree/stylelint)
 
 ## husky 提交拦截
 
