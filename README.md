@@ -22,7 +22,7 @@ npx husky-init
 ::: warning
 安装 husky 时，需要项目是一个 git 管理的项目（如果不是，请先运行 git init）
 
-因为 husky 是基于 [git hooks](https://git-scm.com/docs/githooks) （比如 pre-commit）来做提交拦截、校验，因此
+因为 husky 是基于 [git hooks](https://git-scm.com/docs/githooks) （比如 pre-commit）来做提交拦截、校验
 :::
 
 它会自动完成以下操作
