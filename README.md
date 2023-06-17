@@ -1,10 +1,11 @@
 # commit-lint-test
 
-husky + commit lint（提交消息校验、StyleLint、ESLint 等）
+规范化 husky + commit lint（提交消息校验、StyleLint、ESLint、Prettier、Lint staged 等）
 
 1. 安装 husky
 2. 使用 commitlint 拦截提交信息，分支 [commit-msg-lint](https://github.com/dev-zuo/commit-lint-test/tree/commit-msg-lint)
 3. 使用 stylelint 拦截不规范 style 样式，分支 [stylelint](https://github.com/dev-zuo/commit-lint-test/tree/stylelint)
+4. 使用 eslint+prettier+lint-staged 校验 js/vue 格式化代码，提交拦截（综合前面几点），分支 [eslint-prettier](https://github.com/dev-zuo/commit-lint-test/tree/eslint-prettier)
 
 ## husky 提交拦截
 
@@ -90,6 +91,6 @@ C:\Users\x\commit-lint-test> git commit -m 'xxx'
 # ✖   type may not be empty [type-empty]
 #
 # ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-# 
+#
 # husky - commit-msg hook exited with code 1 (error)
 ```

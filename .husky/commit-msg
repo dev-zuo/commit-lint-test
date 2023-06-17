@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+echo ""
+echo "====== commit-msg 校验 ======"
+echo ""
+
 npx --no -- commitlint --edit $1
