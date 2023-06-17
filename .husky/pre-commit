@@ -3,4 +3,9 @@
 
 # npm test
 
-npx stylelint "**/*.{css,scss,html,vue}"
+echo ""
+echo "====== pre-commit prettier修复、eslint、stylelint校验 ======"
+echo ""
+
+npx pretty-quick --staged # prettier 格式化修复
+npx lint-staged # 校验
